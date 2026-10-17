@@ -120,7 +120,7 @@ dialog::backdrop{background:rgba(44,36,32,.65)}
 .det-info{padding:2rem}.det-info h3{font-size:1.9rem;margin:.3rem 0 .8rem}.det-info .cena{font-size:1.5rem;margin-bottom:1.5rem}
 .o-grid{display:grid;gap:3rem;align-items:center}
 @media(min-width:56rem){.o-grid{grid-template-columns:.8fr 1.2fr}}
-.o-grid figure{margin:0}.o-grid img{width:100%;max-width:26rem;border-radius:.6rem}
+.o-grid figure{margin:0}.o-grid img{width:100%;max-width:min(26rem,522px);border-radius:.6rem}
 .o-grid p+p{margin-top:1rem}.o-grid h2{margin-bottom:1.2rem}
 .siete{list-style:none;margin:1.8rem 0 0;padding:0;display:flex;gap:1.2rem;flex-wrap:wrap}
 .siete a{color:#e6c3a8;text-underline-offset:.25em}
@@ -142,3 +142,4 @@ address{font-style:normal;margin-top:1.5rem;line-height:1.9}
 .paticka{background:var(--deep);color:#e9dccd;padding-block:2rem;font-size:.92rem}
 .paticka .wrap{display:flex;gap:1.5rem 2.5rem;flex-wrap:wrap}.paticka a{text-underline-offset:.2em}
 @media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+.siete a,.logo{display:inline-flex;align-items:center;min-height:44px}.siete{gap:.4rem 1.4rem}
