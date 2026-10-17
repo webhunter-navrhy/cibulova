@@ -1,0 +1,108 @@
+{% extends "_base.html" %}
+{% set titulek = 'Martina Cibuľová – realitná maklérka Banská Bystrica | predaj a prenájom' %}
+{% set cesta = '' %}
+{% block obsah %}
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-text">
+      <p class="pop">Realitná maklérka · Banská Bystrica</p>
+      <h1>Nehnuteľnosť s <em>iskrou</em>, šmrncom a&nbsp;štýlom.</h1>
+      <p class="lead">Predaj či kúpu zastreším od prvej konzultácie až po odovzdanie kľúčov. S citom, s humorom a do detailu.</p>
+      <div class="cta"><a class="btn" href="#ponuka">Pozrieť ponuku</a><a class="btn btn-ghost" href="#odhad">Odhad zdarma</a></div>
+    </div>
+    <figure class="hero-foto">{{ img('p/p09-2.jpg', 'Dizajnový 2-izbový byt na Uhlisku', sizes='(min-width: 60rem) 36rem, 100vw') }}
+      <figcaption>{{ data.ponuky[8].nazev }} · {{ data.ponuky[8].lokalita }}</figcaption></figure>
+  </div>
+</section>
+
+<section class="sekce" id="ponuka">
+  <div class="wrap">
+    <p class="pop">Aktuálna ponuka</p>
+    <h2>Všetky moje nehnuteľnosti <em>na jednom mieste</em></h2>
+    <div class="filter" role="group" aria-label="Filter ponuky">
+      <button type="button" data-f="all" aria-pressed="true">Všetko <span>{{ data.ponuky|length }}</span></button>
+      <button type="button" data-f="predaj" aria-pressed="false">Predaj <span>{{ data.ponuky|selectattr('typ','equalto','predaj')|list|length }}</span></button>
+      <button type="button" data-f="prenájom" aria-pressed="false">Prenájom <span>{{ data.ponuky|selectattr('typ','equalto','prenájom')|list|length }}</span></button>
+    </div>
+    <ul role="list" class="mriezka">
+      {% for p in data.ponuky %}
+      <li class="karta" data-typ="{{ p.typ }}">
+        <button type="button" class="karta-btn" data-id="{{ p.id }}" aria-haspopup="dialog">
+          <span class="karta-foto">{{ img(p.fotky[0], p.nazev ~ ', ' ~ p.lokalita, sizes='(min-width: 60rem) 24rem, (min-width: 38rem) 50vw, 100vw') }}
+            <span class="stitok">{{ 'Rezervované' if p.rezervovane else p.typ|capitalize }}</span></span>
+          <span class="karta-telo"><span class="lok">{{ p.lokalita }}</span><span class="nz">{{ p.nazev }}</span><span class="cena">{{ p.cena }}</span></span>
+        </button>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
+<dialog id="detail" aria-label="Detail nehnuteľnosti">
+  <button type="button" class="zavriet" aria-label="Zavrieť">×</button>
+  {% for p in data.ponuky %}
+  <article class="det" data-id="{{ p.id }}" hidden>
+    <div class="det-gal">
+      {% for f in p.fotky %}{{ img(f, p.nazev ~ ' – fotka ' ~ loop.index, sizes='(min-width: 60rem) 40rem, 100vw', eager=false) }}{% endfor %}
+    </div>
+    <div class="det-info">
+      <p class="pop">{{ p.lokalita }} · {{ 'Rezervované' if p.rezervovane else p.typ|capitalize }}</p>
+      <h3>{{ p.nazev }}</h3>
+      <p class="cena">{{ p.cena }}</p>
+      <a class="btn" href="#kontakt" data-zaujem="{{ p.nazev }} – {{ p.lokalita }}">Mám záujem</a>
+    </div>
+  </article>
+  {% endfor %}
+</dialog>
+
+<section class="sekce tmava" id="o-mne">
+  <div class="wrap o-grid">
+    <figure>{{ img('martina.jpg', 'Martina Cibuľová, realitná maklérka', sizes='(min-width: 60rem) 26rem, 70vw') }}</figure>
+    <div>
+      <p class="pop">O mne</p>
+      <h2>Reality robím už nejaký ten piatok.</h2>
+      <p>Svoju prácu robím s citom, vtipom a chuťou, aby mala vaša nehnuteľnosť pri predaji iskru, šmrnc a štýl a bola magnetom pre tých správnych kupujúcich.</p>
+      <p>Je to predsa biznis a tiež umenie. Facebook, Instagram, YouTube, homestaging, video a profesionálne fotky sú pre mňa samozrejmosťou. Starosti s predajom či kúpou prenechajte na mňa a užívajte si ušetrený čas.</p>
+      <ul role="list" class="siete">{% for s in site.sameas %}<li><a href="{{ s }}" rel="noopener" target="_blank">{{ s.split('//')[1].split('/')[0].replace('www.','').split('.')[0]|capitalize }}</a></li>{% endfor %}</ul>
+    </div>
+  </div>
+</section>
+
+<section class="sekce" id="sluzby">
+  <div class="wrap">
+    <p class="pop">Služby</p>
+    <h2>Od prvej konzultácie po <em>odovzdanie kľúčov</em></h2>
+    <ol role="list" class="sluzby">
+      {% for s in data.sluzby %}<li><span class="cis">{{ '%02d' % loop.index }}</span><h3>{{ s.nazev }}</h3><p>{{ s.popis }}</p></li>{% endfor %}
+    </ol>
+  </div>
+</section>
+
+<section class="sekce krem" id="odhad">
+  <div class="wrap odhad">
+    <div>
+      <p class="pop">Odhad zdarma</p>
+      <h2>Viete, akú hodnotu má vaša nehnuteľnosť?</h2>
+      <p>Zistím to pre vás zadarmo. Ozvem sa vám najneskôr do 24 hodín.</p>
+    </div>
+    <a class="btn" href="#kontakt" data-zaujem="Odhad nehnuteľnosti zadarmo">Vyžiadať odhad zadarmo</a>
+  </div>
+</section>
+
+<section class="sekce" id="kontakt">
+  <div class="wrap kontakt">
+    <div>
+      <p class="pop">Kontakt</p>
+      <h2>Napíšte mi</h2>
+      <address>
+        <strong>Martina Cibuľová s.r.o.</strong><br>
+        Lazovná 5, 974 01 Banská Bystrica<br>
+        IČO {{ site.ico }}<br>
+        <a href="mailto:{{ site.kontakt.email }}">{{ site.kontakt.email }}</a><br>
+        <a href="tel:{{ site.kontakt.telefon|replace(' ', '') }}">{{ site.kontakt.telefon }}</a>
+      </address>
+    </div>
+    {% include "_formular.html" %}
+  </div>
+</section>
+{% endblock %}

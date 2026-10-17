@@ -1,0 +1,282 @@
+[
+ {
+  "id": 1,
+  "nazev": "2-izbový byt s balkónom",
+  "lokalita": "Fončorda",
+  "cena": "169 000 €",
+  "typ": "predaj",
+  "rezervovane": true,
+  "fotky": [
+   "p/p01-1.png",
+   "p/p01-2.png",
+   "p/p01-3.png",
+   "p/p01-4.png"
+  ]
+ },
+ {
+  "id": 2,
+  "nazev": "3-izbový dom s garážou a záhradkou",
+  "lokalita": "Ponická Huta",
+  "cena": "260 000 €",
+  "typ": "predaj",
+  "rezervovane": false,
+  "fotky": [
+   "p/p02-1.jpg",
+   "p/p02-2.jpg",
+   "p/p02-3.jpg",
+   "p/p02-4.jpg"
+  ]
+ },
+ {
+  "id": 3,
+  "nazev": "2-izbový byt pri centre",
+  "lokalita": "Ulica Profesora Sáru",
+  "cena": "650 € / mesiac",
+  "typ": "prenájom",
+  "rezervovane": false,
+  "fotky": [
+   "p/p03-1.png",
+   "p/p03-2.png",
+   "p/p03-3.png",
+   "p/p03-4.png"
+  ]
+ },
+ {
+  "id": 4,
+  "nazev": "4-izbový mezanín 143 m² s jacuzzi a smart home",
+  "lokalita": "Banská Bystrica",
+  "cena": "799 999 €",
+  "typ": "predaj",
+  "rezervovane": false,
+  "fotky": [
+   "p/p04-1.png",
+   "p/p04-2.png",
+   "p/p04-3.png",
+   "p/p04-4.jpeg"
+  ]
+ },
+ {
+  "id": 5,
+  "nazev": "2,5-izbový byt s parkingom v centre",
+  "lokalita": "Centrum",
+  "cena": "1 350 € / mesiac",
+  "typ": "prenájom",
+  "rezervovane": true,
+  "fotky": [
+   "p/p05-1.jpg",
+   "p/p05-2.jpg",
+   "p/p05-3.jpg",
+   "p/p05-4.jpg"
+  ]
+ },
+ {
+  "id": 6,
+  "nazev": "Stavebný pozemok v top lokalite",
+  "lokalita": "Na Stráni",
+  "cena": "280 000 €",
+  "typ": "predaj",
+  "rezervovane": false,
+  "fotky": [
+   "p/p06-1.png",
+   "p/p06-2.png",
+   "p/p06-3.png",
+   "p/p06-4.png"
+  ]
+ },
+ {
+  "id": 7,
+  "nazev": "Novostavba 5-izbového rodinného domu",
+  "lokalita": "Hronsek",
+  "cena": "240 000 €",
+  "typ": "predaj",
+  "rezervovane": false,
+  "fotky": [
+   "p/p07-1.jpg",
+   "p/p07-2.jpeg",
+   "p/p07-3.png",
+   "p/p07-4.png"
+  ]
+ },
+ {
+  "id": 8,
+  "nazev": "Stavebný pozemok s moderným projektom",
+  "lokalita": "Sliač – Slnečnica",
+  "cena": "166 000 €",
+  "typ": "predaj",
+  "rezervovane": false,
+  "fotky": [
+   "p/p08-1.jpg",
+   "p/p08-2.jpg",
+   "p/p08-3.jpg",
+   "p/p08-4.jpg"
+  ]
+ },
+ {
+  "id": 9,
+  "nazev": "Dizajnový 2-izbový byt po rekonštrukcii",
+  "lokalita": "Uhlisko",
+  "cena": "214 800 €",
+  "typ": "predaj",
+  "rezervovane": false,
+  "fotky": [
+   "p/p09-1.jpg",
+   "p/p09-2.jpg",
+   "p/p09-3.jpg",
+   "p/p09-4.jpg"
+  ]
+ },
+ {
+  "id": 10,
+  "nazev": "3-izbový zariadený byt",
+  "lokalita": "Javornícka",
+  "cena": "190 000 €",
+  "typ": "predaj",
+  "rezervovane": true,
+  "fotky": [
+   "p/p10-1.png",
+   "p/p10-2.png",
+   "p/p10-3.png",
+   "p/p10-4.png"
+  ]
+ },
+ {
+  "id": 11,
+  "nazev": "Rodinný dom s garážou a slnečnou záhradou",
+  "lokalita": "Fončorda",
+  "cena": "380 000 €",
+  "typ": "predaj",
+  "rezervovane": false,
+  "fotky": [
+   "p/p11-1.png",
+   "p/p11-2.png",
+   "p/p11-3.png",
+   "p/p11-4.png"
+  ]
+ },
+ {
+  "id": 12,
+  "nazev": "Novostavba 4-izbového rodinného domu",
+  "lokalita": "Zvolenská Slatina",
+  "cena": "340 000 €",
+  "typ": "predaj",
+  "rezervovane": false,
+  "fotky": [
+   "p/p12-1.jpg",
+   "p/p12-2.png",
+   "p/p12-3.png",
+   "p/p12-4.png"
+  ]
+ },
+ {
+  "id": 13,
+  "nazev": "Priestranný 3-izbový byt",
+  "lokalita": "Radvaň",
+  "cena": "890 € / mesiac",
+  "typ": "prenájom",
+  "rezervovane": false,
+  "fotky": [
+   "p/p13-1.png",
+   "p/p13-2.png",
+   "p/p13-3.png",
+   "p/p13-4.png"
+  ]
+ },
+ {
+  "id": 14,
+  "nazev": "1-izbový byt s parkingom",
+  "lokalita": "Sásová",
+  "cena": "550 € / mesiac",
+  "typ": "prenájom",
+  "rezervovane": false,
+  "fotky": [
+   "p/p14-1.png",
+   "p/p14-2.png",
+   "p/p14-3.jpg",
+   "p/p14-4.jpg"
+  ]
+ },
+ {
+  "id": 15,
+  "nazev": "Slnečný pozemok",
+  "lokalita": "Poniky",
+  "cena": "58 000 €",
+  "typ": "predaj",
+  "rezervovane": false,
+  "fotky": [
+   "p/p15-1.jpg",
+   "p/p15-2.jpg",
+   "p/p15-3.jpg",
+   "p/p15-4.jpg"
+  ]
+ },
+ {
+  "id": 16,
+  "nazev": "Chalupa po kompletnej rekonštrukcii",
+  "lokalita": "Heľpa",
+  "cena": "Cena dohodou",
+  "typ": "predaj",
+  "rezervovane": false,
+  "fotky": [
+   "p/p16-1.jpg",
+   "p/p16-2.jpg",
+   "p/p16-3.jpg",
+   "p/p16-4.jpg"
+  ]
+ },
+ {
+  "id": 17,
+  "nazev": "Komerčný objekt s autoumyvárňou",
+  "lokalita": "Banská Bystrica",
+  "cena": "370 000 €",
+  "typ": "predaj",
+  "rezervovane": false,
+  "fotky": [
+   "p/p17-1.png",
+   "p/p17-2.png",
+   "p/p17-3.png",
+   "p/p17-4.png"
+  ]
+ },
+ {
+  "id": 18,
+  "nazev": "Exkluzívny 2-izbový byt",
+  "lokalita": "Centrum",
+  "cena": "999 € / mesiac",
+  "typ": "prenájom",
+  "rezervovane": false,
+  "fotky": [
+   "p/p18-1.jpg",
+   "p/p18-2.jpg",
+   "p/p18-3.jpg",
+   "p/p18-4.jpg"
+  ]
+ },
+ {
+  "id": 19,
+  "nazev": "Murovaná chata s pozemkom",
+  "lokalita": "Tajov – Králiky",
+  "cena": "79 000 €",
+  "typ": "predaj",
+  "rezervovane": false,
+  "fotky": [
+   "p/p19-1.jpg",
+   "p/p19-2.jpg",
+   "p/p19-3.jpg",
+   "p/p19-4.jpg"
+  ]
+ },
+ {
+  "id": 20,
+  "nazev": "Chata blízko zjazdovky",
+  "lokalita": "Donovaly",
+  "cena": "280 000 €",
+  "typ": "predaj",
+  "rezervovane": false,
+  "fotky": [
+   "p/p20-1.jpg",
+   "p/p20-2.jpg",
+   "p/p20-3.jpg",
+   "p/p20-4.jpg"
+  ]
+ }
+]

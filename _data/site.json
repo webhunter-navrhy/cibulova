@@ -1,0 +1,61 @@
+{
+ "slug": "cibulova",
+ "nazev": "Martina Cibuľová – realitná maklérka",
+ "url": "https://webhunter-navrhy.github.io/cibulova/",
+ "base": "/cibulova/",
+ "lang": "sk",
+ "popis": "Realitná maklérka v Banskej Bystrici: predaj a prenájom bytov, domov a pozemkov, homestaging, fotky a video, hypotéky. Odhad nehnuteľnosti zadarmo.",
+ "navrh": true,
+ "domena": "",
+ "og_image": "p/p09-2.jpg",
+ "logo": "logo.svg",
+ "theme_color": "#f6efe6",
+ "typ": "RealEstateAgent",
+ "ico": "50724525",
+ "kontakt": {
+  "email": "info@martinacibulova.sk",
+  "telefon": "+421 917 744 859",
+  "adresa": {
+   "ulice": "Lazovná 5",
+   "psc": "974 01",
+   "mesto": "Banská Bystrica",
+   "zeme": "SK"
+  }
+ },
+ "oteviraci_doba": [],
+ "sameas": [
+  "https://www.facebook.com/MartinaCibulovaRealitnyMakler",
+  "https://www.instagram.com/martinacibulova_realitnymakler/",
+  "https://www.linkedin.com/in/martinacibu%C4%BEov%C3%A1/",
+  "https://www.tiktok.com/@martinacibulova_reality",
+  "https://www.youtube.com/channel/UCJV8vGemWEZc-I2A1qGvVXw?c=UCJV8vGemWEZc-I2A1qGvVXw"
+ ],
+ "cenove_rozpeti": "",
+ "formular": {
+  "endpoint": "",
+  "demo": true,
+  "predmet": "Správa z webu martinacibulova.sk"
+ },
+ "nav": [
+  {
+   "text": "Ponuka",
+   "href": "#ponuka"
+  },
+  {
+   "text": "Služby",
+   "href": "#sluzby"
+  },
+  {
+   "text": "Odhad zdarma",
+   "href": "#odhad"
+  },
+  {
+   "text": "O mne",
+   "href": "#o-mne"
+  },
+  {
+   "text": "Kontakt",
+   "href": "#kontakt"
+  }
+ ]
+}

@@ -1,0 +1,479 @@
+{
+ "slug": "cibulova",
+ "zdroj_url": "https://www.martinacibulova.sk",
+ "firma": "Martina Cibuľová – realitná maklérka",
+ "obor": [
+  "realitní služby",
+  "právo a poradenství"
+ ],
+ "ico": "",
+ "ares": null,
+ "kontakty": {
+  "emaily": [
+   "info@martinacibulova.sk"
+  ],
+  "telefony": [
+   "+421 917 744 859"
+  ],
+  "adresa": "Banská Bystrica",
+  "socialni_site": [
+   "https://www.facebook.com/MartinaCibulovaRealitnyMakler",
+   "https://www.instagram.com/martinacibulova_realitnymakler/",
+   "https://www.linkedin.com/in/martinacibu%C4%BEov%C3%A1/",
+   "https://www.tiktok.com/@martinacibulova_reality",
+   "https://www.youtube.com/channel/UCJV8vGemWEZc-I2A1qGvVXw?c=UCJV8vGemWEZc-I2A1qGvVXw"
+  ]
+ },
+ "logo": {
+  "soubor": "podklady/logo.svg",
+  "zdroj": "https://martinacibulova.sk/themes/reality/assets/images/logo_alt.svg",
+  "rozmery": null
+ },
+ "barvy": {
+  "css_promenne": {
+   "primary": "#007bff",
+   "secondary": "#6c757d"
+  },
+  "z_css": [
+   "#007bff",
+   "#fce1ce",
+   "#dc3545",
+   "#28a745",
+   "#17a2b8",
+   "#ffc107"
+  ],
+  "z_loga": [
+   "#1842a1",
+   "#887e92"
+  ],
+  "theme_color": null,
+  "doporucene": [
+   "#1842a1",
+   "#007bff",
+   "#fce1ce"
+  ]
+ },
+ "fotky": [
+  {
+   "soubor": "podklady/foto/foto-01.jpg",
+   "url": "https://martinacibulova.sk/themes/reality/assets/images/realitny-makler-banska-bystrica-martina-cibulova.jpg?2",
+   "sirka": 522,
+   "vyska": 846,
+   "alt": "Martina Cibulova realitny agent Banska Bystrica"
+  },
+  {
+   "soubor": "podklady/foto/foto-02.jpg",
+   "url": "https://martinacibulova.sk/storage/app/resources/resize/600_600_crop/img_2794a83069af024c6776a13f3235d1ee.jpg",
+   "sirka": 600,
+   "vyska": 600,
+   "alt": "Rezervované! Na predaj je 2 izbový byt s balkónom na Fončorde - Banska Bystrica"
+  },
+  {
+   "soubor": "podklady/foto/foto-03.jpg",
+   "url": "https://martinacibulova.sk/storage/app/resources/resize/600_600_crop/img_d8da699717a592590e15679907c21bca.jpg",
+   "sirka": 600,
+   "vyska": 600,
+   "alt": "Na Predaj je priestranný 3-izbový dom s garážou a záhradkou – Ponická Huta (okres Banská Bystrica) - Banska Bystrica"
+  },
+  {
+   "soubor": "podklady/foto/foto-04.jpg",
+   "url": "https://martinacibulova.sk/storage/app/resources/resize/600_600_crop/img_cc69eeeecd2f90122e5f9b03bfb934c1.jpg",
+   "sirka": 600,
+   "vyska": 600,
+   "alt": "Na prenájom 2 izbový byt v blízkosti centra na ul. Profesora Sáru v Banskej Bystrici - Banská Bystrica"
+  },
+  {
+   "soubor": "podklady/foto/foto-05.jpg",
+   "url": "https://martinacibulova.sk/storage/app/resources/resize/600_600_crop/img_78e0ac985b0643d52000b280432031f8.jpg",
+   "sirka": 600,
+   "vyska": 600,
+   "alt": "Exkluzívny 4 izbový mezanín 143 m² s vlastnou záhradou 75 m², jacuzzi, smart home. Top adresa v Banskej Bystrici - Banská Bystrica"
+  },
+  {
+   "soubor": "podklady/foto/foto-06.jpg",
+   "url": "https://martinacibulova.sk/storage/app/resources/resize/600_600_crop/img_4e999eb10b7afb73f0f393c309a86f78.jpg",
+   "sirka": 600,
+   "vyska": 600,
+   "alt": "Rezervovane! 2.5 izbový byt s parkingom v centre Banskej Bystrice je na prenájom - Banská Bystrica"
+  },
+  {
+   "soubor": "podklady/foto/foto-07.jpg",
+   "url": "https://martinacibulova.sk/storage/app/resources/resize/600_600_crop/img_981f25ce09a9e61813c28f459ecfe66d.jpg",
+   "sirka": 600,
+   "vyska": 600,
+   "alt": "Na predaj je lukratívny stavebný pozemok v top lokalite Na Stráni v Banskej Bystrici - Banska Bystrica"
+  },
+  {
+   "soubor": "podklady/foto/foto-08.jpg",
+   "url": "https://martinacibulova.sk/storage/app/resources/resize/600_600_crop/img_6af0d991850b96ab26b36758bb25044e.jpg",
+   "sirka": 600,
+   "vyska": 600,
+   "alt": "Na predaj je novostavba 5 izbového rodinného domu v Hronseku - Banska Bystrica"
+  },
+  {
+   "soubor": "podklady/foto/foto-09.jpg",
+   "url": "https://martinacibulova.sk/storage/app/resources/resize/600_600_crop/img_3d398d7d3671fce9cc11b6ce717dbc43.jpg",
+   "sirka": 600,
+   "vyska": 600,
+   "alt": "Na predaj je stavebný pozemok s moderným projektom v lokalite Sliač Slnečnica - Banska Bystrica"
+  },
+  {
+   "soubor": "podklady/foto/foto-10.jpg",
+   "url": "https://martinacibulova.sk/storage/app/resources/resize/600_600_crop/img_8725933eebdb2a72fba236f72ed74b3d.jpg",
+   "sirka": 600,
+   "vyska": 600,
+   "alt": "Dizajnový 2 izbový byt po kompletnej rekonštrukcii na Uhlisku je na predaj - Banská Bystrica"
+  },
+  {
+   "soubor": "podklady/foto/foto-11.jpg",
+   "url": "https://martinacibulova.sk/storage/app/resources/resize/600_600_crop/img_148ea89d013b4b942fda25ce8497c46f.jpg",
+   "sirka": 600,
+   "vyska": 600,
+   "alt": "Rezervovane! 3 izbový kompletne zariadený byt na Javorníckej ulici je na predaj - Banská Bystrica"
+  },
+  {
+   "soubor": "podklady/foto/foto-12.jpg",
+   "url": "https://martinacibulova.sk/storage/app/resources/resize/600_600_crop/img_3376034040b3854cfa3f663bd0429f17.jpg",
+   "sirka": 600,
+   "vyska": 600,
+   "alt": "Rodinný dom s garážou a slnečnou záhradou na predaj – Banská Bystrica Fončorda - Banska Bystrica"
+  },
+  {
+   "soubor": "podklady/foto/foto-13.jpg",
+   "url": "https://martinacibulova.sk/storage/app/resources/resize/600_600_crop/img_64008857b4966d757505994e1949e34b.jpg",
+   "sirka": 600,
+   "vyska": 600,
+   "alt": "Novostavba v štandarte 4 izbový rodinný dom vo Zvolenskej Slatine je na predaj - Zvolenská Slatina"
+  },
+  {
+   "soubor": "podklady/foto/foto-14.jpg",
+   "url": "https://martinacibulova.sk/storage/app/resources/resize/600_600_crop/img_9515ac010996faf1d0e0203a02f81c60.jpg",
+   "sirka": 600,
+   "vyska": 600,
+   "alt": "Priestranný 3 - izbový byt v Radvani je na prenájom - Banská Bystrica"
+  },
+  {
+   "soubor": "podklady/foto/foto-15.jpg",
+   "url": "https://martinacibulova.sk/storage/app/resources/resize/600_600_crop/img_d088291fa44ad2ac01a33c8be9424228.jpg",
+   "sirka": 600,
+   "vyska": 600,
+   "alt": "1 izbový byt s parkingom na prenájom v Sásovej v Banskej Bystrici - Banská Bystrica"
+  },
+  {
+   "soubor": "podklady/foto/foto-16.jpg",
+   "url": "https://martinacibulova.sk/storage/app/resources/resize/600_600_crop/img_4ced8c22a9e9ca33ddd2f957d455c8f2.jpg",
+   "sirka": 600,
+   "vyska": 600,
+   "alt": "Na predaj je slnečný pozemok na peknom mieste v obci Poniky - Poniky"
+  },
+  {
+   "soubor": "podklady/foto/foto-17.jpg",
+   "url": "https://martinacibulova.sk/storage/app/resources/resize/600_600_crop/img_d5194af4f2c9731ddc7a8c3548138f83.jpg",
+   "sirka": 600,
+   "vyska": 600,
+   "alt": "Na predaj je tradičná chalupa po kompletnej rekonštrukcii Heľpa - Heľpa"
+  },
+  {
+   "soubor": "podklady/foto/foto-18.jpg",
+   "url": "https://martinacibulova.sk/storage/app/resources/resize/600_600_crop/img_91bdf0e47c6c1b565f519cafebee63f5.jpg",
+   "sirka": 600,
+   "vyska": 600,
+   "alt": "INVESTIČNÁ PRÍLEŽITOSŤ! Na predaj komerčný objekt s funkčnou ručnou autoumyvárňou v Banskej Bystrici - Banská Bystrica"
+  },
+  {
+   "soubor": "podklady/foto/foto-19.jpg",
+   "url": "https://martinacibulova.sk/storage/app/resources/resize/600_600_crop/img_6cebf247962cae393b3f718372f8aa90.jpg",
+   "sirka": 600,
+   "vyska": 600,
+   "alt": "Exkluzívny 2 izbový byt v centre Banskej Bystrice je na prenájom - Banská Bystrica"
+  },
+  {
+   "soubor": "podklady/foto/foto-20.jpg",
+   "url": "https://martinacibulova.sk/storage/app/resources/resize/600_600_crop/img_6d28e002e4a9c1fd3b66d0b8236c2f92.jpg",
+   "sirka": 600,
+   "vyska": 600,
+   "alt": "Murovaná chata s pozemkom  je na predaj Tajov / Králiky - Králiky"
+  },
+  {
+   "soubor": "podklady/foto/foto-21.jpg",
+   "url": "https://martinacibulova.sk/storage/app/resources/resize/600_600_crop/img_55eccb4afc650b9a1f8f4009db71d602.jpg",
+   "sirka": 600,
+   "vyska": 600,
+   "alt": "Na predaj chata blízko zjazdovky na Donovaloch - Donovaly"
+  },
+  {
+   "soubor": "podklady/foto/foto-22.jpg",
+   "url": "https://martinacibulova.sk/themes/reality/assets/images/interier-homestaging.jpg",
+   "sirka": 1200,
+   "vyska": 664,
+   "alt": "pekný luxusný a moderný byt"
+  },
+  {
+   "soubor": "podklady/foto/foto-23.jpg",
+   "url": "https://martinacibulova.sk/storage/app/resources/resize/400_400_crop/img_6c9caf0bb053319bce95d10d1c95dc40.jpeg",
+   "sirka": 400,
+   "vyska": 400,
+   "alt": "Nehnuteľnosti v Banskej Bystrici: Kde sa humor stretáva s realitou"
+  },
+  {
+   "soubor": "podklady/foto/foto-24.png",
+   "url": "https://martinacibulova.sk/storage/app/resources/resize/400_400_crop/img_5a91617916c9c14c326d7afd7209f6bc.png",
+   "sirka": 400,
+   "vyska": 400,
+   "alt": "Virtuálna prehliadka nehnuteľnosti fenomén doby covidovej."
+  },
+  {
+   "soubor": "podklady/foto/foto-25.jpg",
+   "url": "https://martinacibulova.sk/storage/app/resources/resize/400_400_crop/img_0b7c0c62d7398e7227cae410f173db4c.jpg",
+   "sirka": 400,
+   "vyska": 400,
+   "alt": "no"
+  },
+  {
+   "soubor": "podklady/foto/foto-26.jpg",
+   "url": "https://martinacibulova.sk/storage/app/resources/resize/400_400_crop/img_09b6e6243db1ed19c402b81ad05ffb08.jpeg",
+   "sirka": 400,
+   "vyska": 400,
+   "alt": "COVID-19 a rast cien nehnuteľností, ktorý všetkých prekvapil?!"
+  },
+  {
+   "soubor": "podklady/foto/foto-27.jpg",
+   "url": "https://martinacibulova.sk/storage/app/resources/resize/400_400_crop/img_1d94d535c6b604140087b47e477494da.jpg",
+   "sirka": 400,
+   "vyska": 400,
+   "alt": "Ako stanoviť cenu nehnuteľnosti?"
+  },
+  {
+   "soubor": "podklady/foto/foto-28.png",
+   "url": "https://martinacibulova.sk/storage/app/resources/resize/400_400_crop/img_a7d3bb19abc4b56ee3155ecca4a4bb11.png",
+   "sirka": 400,
+   "vyska": 400,
+   "alt": "Ako predať starší rodinný dom za 24 hodín?"
+  },
+  {
+   "soubor": "podklady/foto/foto-29.png",
+   "url": "https://martinacibulova.sk/storage/app/resources/resize/400_400_crop/img_7f20cebdfaf42e99f5760b1cb7ef7564.png",
+   "sirka": 400,
+   "vyska": 400,
+   "alt": "3 izbový byt s krásnym výhľadom na mesto v luxusnej štvrti Belveder"
+  },
+  {
+   "soubor": "podklady/foto/foto-30.png",
+   "url": "https://martinacibulova.sk/storage/app/resources/resize/400_400_crop/img_d626602fee16e3afae9b04b10525f832.png",
+   "sirka": 400,
+   "vyska": 400,
+   "alt": "3 izbový byt predaný za 14 dní"
+  },
+  {
+   "soubor": "podklady/foto/foto-31.jpg",
+   "url": "https://martinacibulova.sk/storage/app/resources/resize/400_400_crop/img_46d56b3e4d7843a791d301709fa6234d.jpeg",
+   "sirka": 400,
+   "vyska": 400,
+   "alt": "Kúpili ste pozemok? A je stavebný?"
+  },
+  {
+   "soubor": "podklady/foto/foto-32.jpg",
+   "url": "https://martinacibulova.sk/storage/app/resources/resize/400_400_crop/img_e1ae4c9d7e234f8c4f332feaf25cc4df.jpg",
+   "sirka": 400,
+   "vyska": 400,
+   "alt": "3 dôvody, pre ktoré sa home staging oplatí"
+  }
+ ],
+ "fakta": [
+  {
+   "typ": "h1",
+   "text": "Mgr. Martina Cibuľová",
+   "zdroj": "https://martinacibulova.sk/"
+  },
+  {
+   "typ": "h2",
+   "text": "Realitné novinky",
+   "zdroj": "https://martinacibulova.sk/"
+  },
+  {
+   "typ": "h2",
+   "text": "Služby",
+   "zdroj": "https://martinacibulova.sk/"
+  },
+  {
+   "typ": "h2",
+   "text": "Blog",
+   "zdroj": "https://martinacibulova.sk/"
+  },
+  {
+   "typ": "h2",
+   "text": "Povedali o mne",
+   "zdroj": "https://martinacibulova.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "Horúce realitné novinky priamo na Váš mail",
+   "zdroj": "https://martinacibulova.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Som realitná maklérka z Banskej Bystrice, ktorá robí reality už nejaký ten piatok a rada pomôžem aj Vám s predajom Vašej nehnuteľnosti. Svoju prácu robím s citom, vtipom, chuťou aby Vaša nehnuteľnosť mala pri predaji iskru, šmrnc, štýl a bola magnetom pre tých správnych kupujúcich. Kladiem dôraz na kvalitnú, do detailu dotiahnutú prácu. Proces predaja či kúpy nehnuteľnosti zastreším od prvej konzultácie až po moment odovzdania kľúčov. Ku každej nehnuteľnosti pristupujem s maximálnym nasadením a využívam skúsenosti  z obchodu ale aj realitného marketingu. Je to predsa biznis a tiež umenie. Fb, instagram, youtube, home staging, video, profesionálne fotky sú pre mňa samozrejmosťou. Prenechajte starosti spojené s predajom či kúpou nehnuteľnosti na mňa a užívajte si ušetrený čas. Ďakujem Vám za dôveru.",
+   "zdroj": "https://martinacibulova.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Aby bol pre vás predaj nehnuteľnosti dokonalý zážitok, zostavila som ponuku služieb s ohľadom na súčasné výzvy v realitnom biznise tak, aby aj v takto vysoko konkurenčnom prostredí dokázala vaša nehnuteľnosť zažiariť a prilákať tých správnych kupujúcich. Zabudnite na stres spojený s kúpno-predajnými procesmi. Proces predaja či kúpy nehnuteľnosti pre vás komplexne a profesionálne zastreším.",
+   "zdroj": "https://martinacibulova.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Vitajte v Banskej Bystrici, kde nehnuteľnosti nie sú len miestom na bývanie, ale aj nekonečným zdrojom zábavy a prekvapení. Ak sa chystáte kúpiť alebo prenajať nehnuteľnosť v tomto malebnom meste, pripravte sa na dobrodružstvo plné humorných situácií a nečakaných zvratov.",
+   "zdroj": "https://martinacibulova.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Minulý rok prišla pandémia a do online sveta sa presunulo všetko, čo sa tam doslova zmestilo. Aj realitky začali viac fungovať online. Veľká dilema nastala ako robiť obliadky keď obmedzenie sem obmedzenie tam. Zákaz vychádzať, zákaz stretávať sa pomaly už zákaz aj dýchať. Ako ale vyriešiť obhliadky? Hm...Takmer nemožné. Mnohí si pomysleli že to už bude hádam aj koniec sveta. Ani sa im nečudujem. Začala som uvažovať ako ľuďom ukázať nehnuteľnosť tak aby mohli pohodlne sedieť doma na gauči a pozrieť si nehnuteľnosť do detailu.",
+   "zdroj": "https://martinacibulova.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Všetko sa dá. Áno, aj predať nehnuteľnosť za 48 hodín a bez obhliadky. No bez práce to úplne nebolo, to si nemyslite. V čom teda spočíva tajomstvo úspechu? V dokonalej príprave nehnuteľnosti na predaj... Za peknou prezentáciou na internete, ktorá osloví záujemcu natoľko, že nepotrebuje prísť na obhliadku, sa skrýva poctivá príprava samotného bytu. Aj keď príprava trvá neskutočné hodiny, výsledok stojí za to. Všetko to začína poriadnym upratovaním. Upratať nevkusné čačky, sprcháče značky Fa a deodoranty z každej poličky. “Zmiznúť” musí milión šminiek, vecami ovešaný stacionárny bicyke...",
+   "zdroj": "https://martinacibulova.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Všetko sa dá. Áno, aj predať nehnuteľnosť za 48 hodín a bez obhliadky. No bez práce to úplne nebolo, to si nemyslite. V čom teda spočíva tajomstvo úspechu? V dokonalej príprave nehnuteľnosti na predaj...",
+   "zdroj": "https://martinacibulova.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Za peknou prezentáciou na internete, ktorá osloví záujemcu natoľko, že nepotrebuje prísť na obhliadku, sa skrýva poctivá príprava samotného bytu. Aj keď príprava trvá neskutočné hodiny, výsledok stojí za to. Všetko to začína poriadnym upratovaním. Upratať nevkusné čačky, sprcháče značky Fa a deodoranty z každej poličky. “Zmiznúť” musí milión šminiek, vecami ovešaný stacionárny bicyke...",
+   "zdroj": "https://martinacibulova.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Keď začiatkom roka 2020 svet ovládla pandémia, nikto nevedel čo bude s jeho biznisom a ani my makléri sme nevedeli zo začiatku povedať, ako bude pandémia na trh s nehnuteľnosťami vplývať.  Rast cien nehnuteľností na Slovensku a zvýšený dopyt po ich kúpe však naozaj nikto nečakal. Sama som milo prekvapená a pre vás všetkých mám odporúčanie.",
+   "zdroj": "https://martinacibulova.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Chystáte sa predávať svoj domov a neviete, koľko si za nehnuteľnosť pýtať? Správna cena vašej nehnuteľnosti môže byť najdôležitejším faktorom pri predaji. Určite nechcete nehnuteľnosť predražiť, pretože stratíte záujemcov, no naopak, nechcete ju predávať ani pod cenu. Stanoviť ideálnu cenu je občas malá veda. Pripravila som si pre vás niekoľko tipov, ktoré vám pomôžu.",
+   "zdroj": "https://martinacibulova.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "“Stačí si vysúkať rukávy a pustiť sa do toho…, ” znela posledná veta môjho inzerátu na tento, dovolím si tvrdiť, čarovný dom v Medzibrode. Starý dom na predaj predstavoval skutočnú maklérsku výzvu, ale ja som verila tomu, že ho predám.",
+   "zdroj": "https://martinacibulova.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Predávať luxusný byt na Belvederi to je asi sen každého poctivého realitného makléra v Banskej Bystrici. Vďaka Bohu aj mne sa naskytla takáto príležitosť a samozrejme môj obchodnícky duch predsa nemôže odmietnuť takúto príležitosť. Tento byt ma odrovnal krásnym výhľadom na mesto a to zďaleka nebolo všetko čo ponúkal. Veľkorysá terasa s ranným slnkom a krb v byte to je luxus ktorý ponúka len zopár bytov v Banskej Bystrici.",
+   "zdroj": "https://martinacibulova.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Každá nehnuteľnosť má svoj príbeh, a toto bola neskutočná JAZDA!!! ? Za14 dní predaný vďaka online reklame.",
+   "zdroj": "https://martinacibulova.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Poznáte to. Prechádzate realitnými portálmi a hľadáte pozemok pre stavbu vášho domu. Vyfiltrujete stavebné pozemky, prijateľné rozlohy aj lokality a ponoríte sa do prezerania ponúk. Nie každý pozemok ponúkaný ako stavebný je naozaj stavebný. Podozrivá je nižšia cena aj príliš veľká rozloha. Predtým, než kúpite pozemok, dobre si ho preverte. Nech sa vám nestane, že investujete v dobrej viere do niečoho, na čom si vysnívaný dom nepostavíte.",
+   "zdroj": "https://martinacibulova.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Home staging, alebo profesionálnu prípravu nehnuteľnosti určenej na predaj či prenájom, nájdete v ponuke každého dobrého realitného makléra. Ukážeme si, ktoré sú zásadné argumenty za to, aby ste o home stagingu pri ponúkaní svojej nehnuteľnosti uvažovali ako o výhodnej investícii. Má totiž vysoký potenciál sa vám vrátiť nielen z hľadiska finančného, ale aj z pohľadu výraznej časovej úspory.",
+   "zdroj": "https://martinacibulova.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Dobrý deň, pani Cibuľová.\r\n\r\nChcem sa Vám veľmi pekne poďakovať za pomoc pri predaji bytu na Družstevnej ulici v Banskej Bystrici. Som veľmi vďačný za Váš prístup, odbornosť, rýchlosť a skvelú komunikáciu s mojou mamou.\r\n\r\nPozdravujem Vás.\r\n\r\nJán Bulla",
+   "zdroj": "https://martinacibulova.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Dobrý deň,\r\nchcela by som sa poďakovať realitnej maklérke Mgr. Martine Cibuľovej a jej tímu za predaj nášho bytu.\r\nOd prvého stretnutia bolo jasné, že sa \"vie obracať\" na trhu s realitami. \r\nVýborná komunikácia, ochota, precíznosť, reprezentatívne nafotenie, spoľahlivosť a zrealizovanie všetkých krokov potrebných pri vybavovaní rýchlo a efektívne zabezpečilo, že byt sa predal v rekordne krátkom čase za obojstranne výhodných podmienok bez prieťahov, komplikácií a stresu.\r\nPani maklérku a jej tím odporúčam každému pre ich serióznosť, spoľahlivosť a profesionalitu. \r\nĽuba B.",
+   "zdroj": "https://martinacibulova.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Predávali sme rozostavanú stavbu rodinného domu, čo nebol žiadny ľahký ,,oriešok‘‘ na predaj. Musím povedať, že Martina je naozaj profesionálka. Bravúrne zvládla celý priebeh od prípravy propagačného videa, cez obhliadky až po úspešne zrealizovaný obchod, kde všetci traja zúčastnení máme z toho dobrý pocit. Ja som predal, čo som potreboval. Nový majiteľ našiel, čo hľadal a Martina sa o to všetko postarala až po odovzdanie kľúčov od domu a prosecca v taške 🥂 . Ďakujem za profesionálny prístup. Odporúčam 👍",
+   "zdroj": "https://martinacibulova.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Pani Cibuľová predala môj byt expresnou rýchlosťou a je veľmi nápomocná aj pri kúpe ďalšej nehnuteľnosti. Fotky, videá a celková prezentácia bytov sú prvotriedne. Jej profesionálny a komplexný prístup k realitám, to je úplne iný level, či už ide o kúpu, predaj, poradenstvo... To vidno, keď niekto je odborník a ešte aj rád robí svoju prácu. Radosť spolupracovať :)",
+   "zdroj": "https://martinacibulova.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Dobrý deň, reagujem na Vašu ponuku na bazoši v Hosťovciach. Som síce začínajúcim maklérom v inej kancelárii a tak sledujem ponuku na trhu a prácu iných maklérov už pár mesiacov a je to veru veľká bieda. No Vaša práca ma nesmierne zaujala a týmto by som Vám chcel len zdeliť že to čo robíte, robíte naozaj úžasne (foto, video, homestaging a celková prezentácia). To je vlastne všetko čo som chcel 😊. Prajem pekný deň, s pozdravom Patrik Textoris",
+   "zdroj": "https://martinacibulova.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Predaj prebiehal hladko, nemusel som sa stresovať čo je ešte treba spraviť. Komunikáciu zastrešila p. Cibuľová kompletne a včas pripomínala, čo treba zariadiť, aby sme nestrácali čas. V ankete by som povedal:  „rozhodne odporúčam“  :-)",
+   "zdroj": "https://martinacibulova.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Profesionalita, nadštandardný prístup, priateľské a ústretové jednanie, ochota, spoľahlivosť a odhodlanie. Ďakujem pani Cibuľovej za spoluprácu pri predaji nášho bytu. Vrelo odporúčam a prajem veľa spokojných zákazníkov.",
+   "zdroj": "https://martinacibulova.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Pani Cibuľová sprostredkovala pre nás v decembri krásny apartmán v centre Banskej Bystrice. Boli sme nadmieru spokojní s profesionálnym servisom/právne služby/obhliadka/ a taktiež s radami ohľadom financií. Vrelo odporúčame",
+   "zdroj": "https://martinacibulova.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "S pracou pani Cibuľovej sme boli s manželom veľmi spokojní. Na začiatku celého procesu predaja nehnuteľnosti bola úprimná a vždy nás oboznámila s postupom ktorý bude nasledovať. Bola prítomna pri každom dôležitom kroku čo iba potvrdzuje jej profesionálny prístup a záujem o každého klienta. Vždy keď sme jej volali odpovedala na telefonát alebo do par minút zavolala spať a to nám veľmi uľahčilo celý proces. Určite odporúčame.",
+   "zdroj": "https://martinacibulova.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Aj napriek koronakríze som vďaka pani Cibuľovej dokázala predať byt a vybaviť všetky náležitosti potrebné k prepisu. Bez jej profesionálneho prístupu by to v čase karantény ani nešlo zrealizovať.",
+   "zdroj": "https://martinacibulova.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Chcem sa poďakovať za profesionálny prístup od samého začiatku,  kedy som podpísala objednávku na sprostredkovanie predaja nehnuteľnosti , (žiadne nezmyselné exkluzívne zmluvy.) Pri každej obhliadke som mala pocit skôr  rodinnej spriaznenosti a dôvery voči pani Cibuľovej. A na záver profesionálne vypracovanie všetkých zmlúv a zmenežovanie bankových prevodov je pre klienta veľkým bonusom s pocitom bezpečia a dôvery, čo sa v mojom prípade potvrdilo.",
+   "zdroj": "https://martinacibulova.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Noo bol som nadmieru spokojný....si šikovná, milá, ochotná, 100%tne diskrétna a hlavne pekná žena :-))",
+   "zdroj": "https://martinacibulova.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Ďakujem pani Cibuľovej za rýchlosť, ústretovosť a profesionalitu pri predaji našej nehnuteľnosti. Pani Cibuľová je profesionálka v predaji nehnuteľnosti a je stvorená na predaj a kúpu nehnuteľnosti :-)... za čo jej ďakujeme.",
+   "zdroj": "https://martinacibulova.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Mgr. Cibuľová sprostredkovala predaj nášho bytu. Pracovala veľmi profesionálne, problémy, ktoré pri predaji vznikli, riešila operatívne a k našej spokojnosti.  Jej prístup bol veľmi proaktívny. Veľmi intenzívne sme spolu komunikovali, predaj sa uskutočnil v požadovanom čase a za požadovanú cenu. Komplexnosť služieb, rýchlosť a profesionalita. To sú atribúty práce Mgr. Cibuľovej.",
+   "zdroj": "https://martinacibulova.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Rezervované! Na predaj je 2 izbový byt s balkónom na Fončorde",
+   "zdroj": "https://martinacibulova.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Na Predaj je priestranný 3-izbový dom s garážou a záhradkou – Ponická Huta (okres Banská Bystrica)",
+   "zdroj": "https://martinacibulova.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Na prenájom 2 izbový byt v blízkosti centra na ul. Profesora Sáru v Banskej Bystrici",
+   "zdroj": "https://martinacibulova.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Exkluzívny 4 izbový mezanín 143 m² s vlastnou záhradou 75 m², jacuzzi, smart home. Top adresa v Banskej Bystrici",
+   "zdroj": "https://martinacibulova.sk/"
+  }
+ ],
+ "chybi": [
+  "IČO",
+  "potvrzení služeb a ceníku (nic nevymýšlet)"
+ ],
+ "popis_webu": "Realitná maklérka Martina Cibuľová v Banskej Bystrici – predaj a kúpa bytov, domov a pozemkov, homestaging aj kompletný realitný servis."
+}
