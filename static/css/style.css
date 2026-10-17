@@ -76,10 +76,10 @@ a{color:inherit}
 :focus-visible{outline:2px solid var(--modra);outline-offset:3px}
 .hlavicka{position:sticky;top:0;z-index:20;background:rgba(251,247,241,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
 .hlavicka .wrap{display:flex;align-items:center;justify-content:space-between;gap:1.5rem;padding-block:.7rem}
-.logo img{height:44px;width:auto}
+.logo img{height:54px;width:auto}
 .hlavicka nav{display:flex;gap:1.6rem;font-size:.95rem}
 .hlavicka nav a{text-decoration:none;color:var(--deep)}.hlavicka nav a:hover{color:var(--modra)}
-@media(max-width:44rem){.hlavicka .wrap{flex-wrap:wrap}.hlavicka nav{gap:1rem;font-size:.85rem;flex-wrap:wrap}.logo img{height:36px}}
+@media(max-width:44rem){.hlavicka .wrap{flex-wrap:wrap}.hlavicka nav{gap:1rem;font-size:.85rem;flex-wrap:wrap}.logo img{height:46px}.hlavicka nav{flex-wrap:nowrap;overflow-x:auto;width:100%;white-space:nowrap}}
 .hero{padding-block:clamp(2.5rem,7vw,6rem)}
 .hero-grid{display:grid;gap:3rem;align-items:center}
 @media(min-width:60rem){.hero-grid{grid-template-columns:1.1fr .9fr}}

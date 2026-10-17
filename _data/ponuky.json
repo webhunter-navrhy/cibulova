@@ -49,8 +49,8 @@
   "typ": "predaj",
   "rezervovane": false,
   "fotky": [
-   "p/p04-1.png",
    "p/p04-2.png",
+   "p/p04-1.png",
    "p/p04-3.png",
    "p/p04-4.jpeg"
   ]
@@ -63,8 +63,8 @@
   "typ": "prenájom",
   "rezervovane": true,
   "fotky": [
-   "p/p05-1.jpg",
    "p/p05-2.jpg",
+   "p/p05-1.jpg",
    "p/p05-3.jpg",
    "p/p05-4.jpg"
   ]
@@ -161,8 +161,8 @@
   "typ": "predaj",
   "rezervovane": false,
   "fotky": [
-   "p/p12-1.jpg",
    "p/p12-2.png",
+   "p/p12-1.jpg",
    "p/p12-3.png",
    "p/p12-4.png"
   ]
