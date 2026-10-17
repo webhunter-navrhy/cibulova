@@ -120,7 +120,7 @@ dialog::backdrop{background:rgba(18,30,60,.65)}
 .det-info{padding:2rem}.det-info h3{font-size:1.9rem;margin:.3rem 0 .8rem}.det-info .cena{font-size:1.5rem;margin-bottom:1.5rem}
 .o-grid{display:grid;gap:3rem;align-items:center}
 @media(min-width:56rem){.o-grid{grid-template-columns:.8fr 1.2fr}}
-.o-grid figure{margin:0}.o-grid img{width:100%;max-width:min(26rem,522px);border-radius:.6rem}
+.o-grid figure{margin:0}.o-grid img{width:100%;max-width:min(26rem,522px);aspect-ratio:4/5;object-fit:cover;object-position:bottom;background:#fff;border-radius:.6rem}
 .o-grid p+p{margin-top:1rem}.o-grid h2{margin-bottom:1.2rem}
 .siete{list-style:none;margin:1.8rem 0 0;padding:0;display:flex;gap:1.2rem;flex-wrap:wrap}
 .siete a{color:#b9c8ee;text-underline-offset:.25em}
@@ -157,3 +157,9 @@ address{font-style:normal;margin-top:1.5rem;line-height:1.9}
  .mriezka.zbalene .karta:nth-child(n+7){display:none}}
 .hl-kontakt{display:none}
 @media(max-width:44rem){.hl-kontakt{display:inline-block;background:var(--deep);color:#fff;border-radius:999px;padding:.55rem 1.1rem;font-size:.9rem;text-decoration:none;font-weight:600}}
+.o-grid figure{max-width:20rem}@media(max-width:56rem){.o-grid figure{margin-inline:auto;max-width:17rem}}
+.hlavne{display:grid;gap:1.6rem;margin-top:2.5rem;grid-template-columns:repeat(auto-fit,minmax(16rem,1fr))}
+.hl-foto img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:.6rem}.hlavne h3{margin:1rem 0 .4rem}.hlavne p{color:var(--muted)}
+.vedlajsie{list-style:none;margin:2.5rem 0 0;padding:0;display:grid;gap:1.5rem;grid-template-columns:repeat(auto-fit,minmax(14rem,1fr))}
+.vedlajsie li{border-top:2px solid var(--accent);padding-top:1rem}.vedlajsie h3{font-size:1.2rem;margin-bottom:.4rem}.vedlajsie p{color:var(--muted);font-size:.95rem}
+.autorka{margin-top:1.6rem;font-size:.95rem}.autorka span{color:var(--muted);font-size:.88rem}

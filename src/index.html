@@ -8,6 +8,7 @@
       <p class="pop">Realitná maklérka · Banská Bystrica</p>
       <h1>Nehnuteľnosť s iskrou, šmrncom a&nbsp;štýlom.</h1>
       <p class="lead">Predaj či kúpu zastreším od prvej konzultácie až po odovzdanie kľúčov. S citom, s humorom a do detailu.</p>
+      <p class="autorka"><strong>Mgr. Martina Cibuľová</strong>, realitná maklérka<br><span>„Predaj prebiehal hladko, nemusel som sa stresovať.“ – klient po predaji</span></p>
       <div class="cta"><a class="btn" href="#ponuka">Pozrieť ponuku</a><a class="btn btn-ghost" href="#odhad">Odhad zdarma</a></div>
     </div>
     <figure class="hero-foto">{{ img('p/p09-2.jpg', 'Dizajnový 2-izbový byt na Uhlisku', sizes='(min-width: 60rem) 36rem, 100vw') }}
@@ -73,9 +74,12 @@
   <div class="wrap">
     <p class="pop">Služby</p>
     <h2>Od prvej konzultácie po odovzdanie kľúčov</h2>
-    <ol role="list" class="sluzby">
-      {% for s in data.sluzby %}<li><h3>{{ s.nazev }}</h3><p>{{ s.popis }}</p></li>{% endfor %}
-    </ol>
+    <div class="hlavne">
+      {% for s in data.sluzby[:3] %}<article><div class="hl-foto">{{ img(['p/p09-2.jpg','p/p04-2.png','p/p11-1.png'][loop.index0], s.nazev, sizes='(min-width: 60rem) 22rem, 100vw') }}</div><h3>{{ s.nazev }}</h3><p>{{ s.popis }}</p></article>{% endfor %}
+    </div>
+    <ul role="list" class="vedlajsie">
+      {% for s in data.sluzby[3:] %}<li><h3>{{ s.nazev }}</h3><p>{{ s.popis }}</p></li>{% endfor %}
+    </ul>
   </div>
 </section>
 
