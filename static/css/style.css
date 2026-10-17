@@ -63,7 +63,7 @@ a { color: inherit; }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; } }
 
 /* ===== Martina Cibuľová: teplá hnedá + krém, modrá z loga jako akcent ===== */
-:root{--bg:#fbf7f1;--krem:#f3e9dc;--text:#2c2420;--muted:#6b5d54;--accent:#8e624b;--deep:#52392b;--modra:#1842a1;--line:#e3d6c6;--accent-text:#fff;
+:root{--bg:#fbf9f6;--krem:#eef1f7;--text:#1f2430;--muted:#5b6070;--accent:#1842a1;--deep:#12306f;--modra:#1842a1;--line:#dde1ea;--accent-text:#fff;
 --serif:'Newsreader',Georgia,serif;--sans:'Hanken Grotesk',system-ui,sans-serif}
 body{background:var(--bg);color:var(--text);font:400 1.0625rem/1.65 var(--sans)}
 .wrap{width:min(72rem,100% - 2.5rem);margin-inline:auto}
@@ -74,7 +74,7 @@ em{font-style:italic;color:var(--accent)}
 a{color:inherit}
 .skip{position:absolute;left:-99rem}.skip:focus{left:1rem;top:1rem;background:#fff;padding:.5rem;z-index:99}
 :focus-visible{outline:2px solid var(--modra);outline-offset:3px}
-.hlavicka{position:sticky;top:0;z-index:20;background:rgba(251,247,241,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.hlavicka{position:sticky;top:0;z-index:20;background:rgba(251,249,246,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
 .hlavicka .wrap{display:flex;align-items:center;justify-content:space-between;gap:1.5rem;padding-block:.7rem}
 .logo img{height:54px;width:auto}
 .hlavicka nav{display:flex;gap:1.6rem;font-size:.95rem}
@@ -93,7 +93,7 @@ a{color:inherit}
 .hero-foto figcaption{font-size:.85rem;color:var(--muted);margin-top:.7rem}
 .sekce{padding-block:clamp(3.5rem,8vw,7rem)}
 .krem{background:var(--krem)}
-.tmava{background:var(--deep);color:#f5ebe0}.tmava em,.tmava .pop{color:#e6c3a8}
+.tmava{background:var(--deep);color:#eef1fa}.tmava .pop{color:#b9c8ee}
 .filter{display:flex;gap:.6rem;flex-wrap:wrap;margin:2rem 0}
 .filter button{background:transparent;border:1.5px solid var(--line);border-radius:999px;padding:.55rem 1.2rem;color:var(--deep);font-weight:600}
 .filter button span{opacity:.55;margin-left:.3rem;font-weight:400}
@@ -105,13 +105,13 @@ a{color:inherit}
 .karta-foto img{width:100%;height:100%;object-fit:cover;transition:transform .5s}
 .karta-btn:hover img{transform:scale(1.04)}
 .karta-btn:focus-visible{outline:2px solid var(--modra);outline-offset:4px;border-radius:.6rem}
-.stitok{position:absolute;left:.7rem;top:.7rem;background:rgba(251,247,241,.95);color:var(--deep);font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;font-weight:600;padding:.3rem .7rem;border-radius:999px}
+.stitok{position:absolute;left:.7rem;top:.7rem;background:rgba(251,249,246,.95);color:var(--deep);font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;font-weight:600;padding:.3rem .7rem;border-radius:999px}
 .karta-telo{display:block;padding-top:.8rem}
 .lok{display:block;font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:600}
 .nz{display:block;font-family:var(--serif);font-size:1.28rem;line-height:1.2;margin:.2rem 0 .35rem}
-.cena{display:block;font-weight:600;color:var(--modra)}
+.cena{display:block;font-weight:600;color:var(--accent)}
 dialog{border:0;padding:0;width:min(62rem,94vw);max-height:92vh;border-radius:.8rem;background:var(--bg);color:var(--text);overflow:auto}
-dialog::backdrop{background:rgba(44,36,32,.65)}
+dialog::backdrop{background:rgba(18,30,60,.65)}
 .zavriet{position:sticky;top:.6rem;float:right;margin:.6rem .6rem 0 0;z-index:2;width:2.6rem;height:2.6rem;border-radius:50%;border:0;background:#fff;font-size:1.6rem;line-height:1;box-shadow:0 1px 6px rgba(0,0,0,.25)}
 .det[hidden]{display:none}
 .det{display:grid}
@@ -123,7 +123,7 @@ dialog::backdrop{background:rgba(44,36,32,.65)}
 .o-grid figure{margin:0}.o-grid img{width:100%;max-width:min(26rem,522px);border-radius:.6rem}
 .o-grid p+p{margin-top:1rem}.o-grid h2{margin-bottom:1.2rem}
 .siete{list-style:none;margin:1.8rem 0 0;padding:0;display:flex;gap:1.2rem;flex-wrap:wrap}
-.siete a{color:#e6c3a8;text-underline-offset:.25em}
+.siete a{color:#b9c8ee;text-underline-offset:.25em}
 .sluzby{list-style:none;margin:2.5rem 0 0;padding:0;display:grid;gap:0 3rem;grid-template-columns:repeat(auto-fit,minmax(18rem,1fr))}
 .sluzby li{padding:1.6rem 0;border-top:1px solid var(--line)}
 .cis{font-family:var(--serif);font-style:italic;color:var(--accent);font-size:1.1rem}
@@ -139,7 +139,21 @@ address{font-style:normal;margin-top:1.5rem;line-height:1.9}
 .formular button{justify-self:start;background:var(--deep);color:#fff;border:0;border-radius:999px;padding:.9rem 2rem;font-weight:600}
 .formular button:hover{background:var(--accent)}
 .past{position:absolute;left:-99rem}.formular-stav{color:var(--muted);font-size:.9rem}
-.paticka{background:var(--deep);color:#e9dccd;padding-block:2rem;font-size:.92rem}
+.paticka{background:var(--deep);color:#dfe6f7;padding-block:2rem;font-size:.92rem}
 .paticka .wrap{display:flex;gap:1.5rem 2.5rem;flex-wrap:wrap}.paticka a{text-underline-offset:.2em}
 @media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
 .siete a,.logo{display:inline-flex;align-items:center;min-height:44px}.siete{gap:.4rem 1.4rem}
+.sluzby li{border-top:2px solid var(--accent)}
+.citace{display:grid;gap:1.5rem;margin-top:2.5rem;grid-template-columns:repeat(auto-fit,minmax(17rem,1fr))}
+.citace figure{margin:0;background:#fff;border-radius:.6rem;padding:1.8rem;border-top:3px solid var(--accent)}
+.citace blockquote{margin:0;font-family:var(--serif);font-size:1.2rem;line-height:1.45}
+.citace figcaption{margin-top:1rem;font-size:.85rem;color:var(--muted);font-weight:600}
+.viac{margin:2rem auto 0;display:block;background:transparent;border:1.5px solid var(--deep);color:var(--deep);border-radius:999px;padding:.8rem 1.8rem;font-weight:600}
+.viac[hidden]{display:none}
+@media(max-width:44rem){
+ .mriezka{grid-template-columns:1fr 1fr;gap:1.1rem .8rem}.nz{font-size:1.05rem}.lok{font-size:.68rem}.stitok{font-size:.62rem;padding:.2rem .5rem}
+ .hlavicka nav{display:none}.hlavicka .wrap{justify-content:space-between}
+ .hlavicka::after{content:""}
+ .mriezka.zbalene .karta:nth-child(n+7){display:none}}
+.hl-kontakt{display:none}
+@media(max-width:44rem){.hl-kontakt{display:inline-block;background:var(--deep);color:#fff;border-radius:999px;padding:.55rem 1.1rem;font-size:.9rem;text-decoration:none;font-weight:600}}

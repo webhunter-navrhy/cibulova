@@ -6,7 +6,7 @@
   <div class="wrap hero-grid">
     <div class="hero-text">
       <p class="pop">Realitná maklérka · Banská Bystrica</p>
-      <h1>Nehnuteľnosť s <em>iskrou</em>, šmrncom a&nbsp;štýlom.</h1>
+      <h1>Nehnuteľnosť s iskrou, šmrncom a&nbsp;štýlom.</h1>
       <p class="lead">Predaj či kúpu zastreším od prvej konzultácie až po odovzdanie kľúčov. S citom, s humorom a do detailu.</p>
       <div class="cta"><a class="btn" href="#ponuka">Pozrieť ponuku</a><a class="btn btn-ghost" href="#odhad">Odhad zdarma</a></div>
     </div>
@@ -18,13 +18,13 @@
 <section class="sekce" id="ponuka">
   <div class="wrap">
     <p class="pop">Aktuálna ponuka</p>
-    <h2>Všetky moje nehnuteľnosti <em>na jednom mieste</em></h2>
+    <h2>Všetky moje nehnuteľnosti na jednom mieste</h2>
     <div class="filter" role="group" aria-label="Filter ponuky">
       <button type="button" data-f="all" aria-pressed="true">Všetko <span>{{ data.ponuky|length }}</span></button>
       <button type="button" data-f="predaj" aria-pressed="false">Predaj <span>{{ data.ponuky|selectattr('typ','equalto','predaj')|list|length }}</span></button>
       <button type="button" data-f="prenájom" aria-pressed="false">Prenájom <span>{{ data.ponuky|selectattr('typ','equalto','prenájom')|list|length }}</span></button>
     </div>
-    <ul role="list" class="mriezka">
+    <ul role="list" class="mriezka" id="mriezka">
       {% for p in data.ponuky %}
       <li class="karta" data-typ="{{ p.typ }}">
         <button type="button" class="karta-btn" data-id="{{ p.id }}" aria-haspopup="dialog">
@@ -35,6 +35,7 @@
       </li>
       {% endfor %}
     </ul>
+    <button type="button" class="viac" id="viac" hidden>Zobraziť všetkých {{ data.ponuky|length }}</button>
   </div>
 </section>
 
@@ -71,14 +72,22 @@
 <section class="sekce" id="sluzby">
   <div class="wrap">
     <p class="pop">Služby</p>
-    <h2>Od prvej konzultácie po <em>odovzdanie kľúčov</em></h2>
+    <h2>Od prvej konzultácie po odovzdanie kľúčov</h2>
     <ol role="list" class="sluzby">
-      {% for s in data.sluzby %}<li><span class="cis">{{ '%02d' % loop.index }}</span><h3>{{ s.nazev }}</h3><p>{{ s.popis }}</p></li>{% endfor %}
+      {% for s in data.sluzby %}<li><h3>{{ s.nazev }}</h3><p>{{ s.popis }}</p></li>{% endfor %}
     </ol>
   </div>
 </section>
 
-<section class="sekce krem" id="odhad">
+<section class="sekce krem" id="citace">
+  <div class="wrap">
+    <p class="pop">Povedali o mne</p>
+    <h2>Slová spokojných klientov</h2>
+    <div class="citace">{% for c in data.citace %}<figure><blockquote>„{{ c.text }}“</blockquote><figcaption>{{ c.autor }}</figcaption></figure>{% endfor %}</div>
+  </div>
+</section>
+
+<section class="sekce" id="odhad">
   <div class="wrap odhad">
     <div>
       <p class="pop">Odhad zdarma</p>

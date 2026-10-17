@@ -44,3 +44,12 @@
     if (z && !z.value) z.value = 'Dobrý deň, mám záujem o: ' + a.getAttribute('data-zaujem') + '.';
   }); });
 })();
+
+// Mobil: zbalený seznam (6 karet) + tlačítko
+(function () {
+  var m = document.getElementById('mriezka'), v = document.getElementById('viac');
+  if (!m || !v || !window.matchMedia('(max-width: 44rem)').matches) return;
+  m.classList.add('zbalene'); v.hidden = false;
+  v.addEventListener('click', function () { m.classList.remove('zbalene'); v.hidden = true; });
+  document.querySelectorAll('.filter button').forEach(function (b) { b.addEventListener('click', function () { m.classList.remove('zbalene'); v.hidden = true; }); });
+})();
